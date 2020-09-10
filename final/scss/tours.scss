@@ -1,0 +1,327 @@
+.emptyspace {
+    height: 142px;
+}
+
+.tourtitle {
+    height: 200px;
+    max-width: 981px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))  ,url(../images/tour/tours-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .TourTitle {
+        color: white;
+        font-family: ProximaNova;
+        font-size: 60px;
+        letter-spacing: 3.5px;
+        font-weight: lighter;
+        text-align: center;
+        padding: 70px 0;
+    }
+}
+
+.rowUno {
+    min-height: 304px;
+    max-width: 818px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+
+a {
+    text-decoration: none;
+}
+
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 60px;
+    font-family: ProximaNova;
+    font-size: 60px;
+    letter-spacing: 1.5;
+    font-weight: normal; 
+}
+
+p {
+    font-family: ProximaNova;
+    font-size: 30px;  
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+
+    .imageOne {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-01.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+    }
+
+    .imageTwo {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-02.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+    }
+    
+    .imageThree {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-03.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+    }
+}
+
+.rowDos {
+    min-height: 304px;
+    max-width: 818px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+    a {
+        text-decoration: none;
+    }
+
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 60px;
+    font-family: ProximaNova;
+    font-size: 60px;
+    letter-spacing: 1.5;
+    font-weight: normal; 
+}
+
+p {
+    font-family: ProximaNova;
+    font-size: 30px;  
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+
+    .imageOne {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-04.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+        }
+    }
+
+    .imageTwo {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-05.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+        }
+
+    }
+    
+    .imageThree {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-06.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+        }
+    }
+}
+
+.rowTres {
+    min-height: 304px;
+    max-width: 818px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+a {
+    text-decoration: none;
+}
+
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 60px;
+    font-family: ProximaNova;
+    font-size: 60px;
+    letter-spacing: 1.5;
+    font-weight: normal; 
+}
+
+p {
+    font-family: ProximaNova;
+    font-size: 30px;  
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+
+    .imageOne {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-07.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+        }
+    }
+
+    .imageTwo {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-08.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+        }
+
+    }
+    
+    .imageThree {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-09.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+
+
+    .rowUno {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .rowUno div {
+        width: 150px;
+        margin: 0 auto 40px auto;
+    }
+    .rowDos {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .rowDos div {
+        width: 150px;
+        margin: 0 auto 40px auto;
+    }
+    .rowTres {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .rowTres div {
+        width: 150px;
+        margin: 0 auto 40px auto;
+    }
+}

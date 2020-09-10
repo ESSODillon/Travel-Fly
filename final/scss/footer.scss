@@ -1,0 +1,62 @@
+footer {
+    min-height: 100px;
+    background-color: #79ADDC;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    .logo2 {
+        border: 2px solid white; 
+        width: 92px;
+        height: 42px;
+        margin: 0 auto;
+    
+        span {
+            color: white;
+            font-size: 20px;
+            font-family: GillSansReg;
+            letter-spacing: 1.3px;
+            position: relative;
+            bottom: -20px;
+            }
+    
+    }
+
+    .socials {
+        // Spacing looks a bit off, and make sure they show up on the live server //
+        height: 25px;
+        width: 120px;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .copywrite {
+        color: white;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    footer {
+        height: 200px;
+        display: block;
+
+        .logo2 {
+            margin-bottom: 40px;
+        }
+        .socials {
+            margin-bottom: 40px;
+        }
+        .copywrite {
+            margin-bottom: 40px;
+        }
+    }
+
+}

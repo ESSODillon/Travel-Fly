@@ -1,0 +1,379 @@
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))  ,url(../images/hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .centered-content {
+        width: 400px;
+        text-align: center;
+
+        .header {
+            font-family: ProximaNova;
+            font-size: 60px;
+            letter-spacing: 1.5px;
+            font-weight: normal;
+            color: white;
+            padding-bottom: 40px;
+            margin-top: 60px;
+        }
+
+        .undertext {
+            font-family: GillSansReg;
+            font-style: italic;
+            font-size: 20px;
+            color: white;
+            padding-bottom: 40px;
+        }
+
+        .button {
+            background-color: #79ADDC;
+            font-size: 15px;
+            font-family: GillSansReg;
+            color: white;
+            height: 40px;
+            width: 122px;
+            margin: 0 auto;
+            padding: 10px 0;
+            text-decoration: none;
+
+        }
+    }
+}
+
+.homeimages {
+    min-height: 304px;
+    max-width: 818px;
+    margin: -42px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+
+    a {
+        text-decoration: none;
+    }
+    
+    div {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h1 {
+        margin-top: 60px;
+        font-family: ProximaNova;
+        font-size: 60px;
+        letter-spacing: 1.5;
+        font-weight: normal; 
+    }
+
+    p {
+        font-family: ProximaNova;
+        font-size: 30px;  
+        margin-top: -20px;
+        margin-bottom: 60px;
+    }
+
+    .imageOne {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-01.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+    }
+
+    .imageTwo {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-02.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+            
+        }
+
+    }
+    
+    .imageThree {
+        height: 304px;
+        min-width: 236px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/tour/tour-03.jpg);
+
+        .imagebutton {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 20px;
+            
+        }
+    }
+}
+
+@media (max-width: 825px) {
+    .homeimages {
+        flex-wrap: wrap;
+    }
+
+    .homeimages div {
+        width: 150px;
+        margin: 0 auto 40px auto;
+    }
+}
+
+.formsection {
+
+    max-width: 818px;
+    margin: 0 auto;
+    min-height: 771px;
+
+    h1 {
+        font-family: ProximaNova;
+        font-size: 60px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+
+    input {
+      border: 1px solid #79ADDC;  
+      font-family: GillSansReg;
+      font-size: 18px;
+      font-weight: lighter;
+      }
+
+
+    p {
+        font-family: GillSansReg;
+        font-size: 18px;
+        font-weight: lighter; 
+        margin-top: 15px;
+        white-space: nowrap;
+    }
+
+    .rowOne {
+        display: flex;
+        justify-content: space-between;
+
+        .input-wrapper1 {
+            height: 58px;
+            width: 42%;
+            margin-bottom: 20px;
+
+            .text-field {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+        }
+        .input-wrapper2 {
+            height: 58px;
+            width: 55%;
+            margin-bottom: 20px;
+
+            .text-field2 {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .rowTwo {
+        display: flex;
+        justify-content: space-between;
+
+        .input-wrapper3 {
+            height: 58px;
+            width: 42%;
+            margin-bottom: 20px;
+        }
+
+            .text-field3 {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+
+           .input-wrapper4 {
+            height: 58px;
+            width: 55%;
+            margin-bottom: 20px;
+
+            .text-field4 {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+        
+    } 
+        }
+
+    .rowThree {
+        display: flex;
+        justify-content: space-between;
+
+        .input-wrapper5 {
+            height: 58px;
+            width: 85%;
+            margin-bottom: 20px;
+            position: relative;
+
+            .text-field5 {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+
+            .icon1 {
+                position: absolute;
+                right: 20px;
+                top: 11px;
+                font-size: 20px;
+                }
+        }    
+    }
+
+    .rowFour {
+        display: flex;
+        justify-content: space-between;
+
+        .input-wrapper6 {
+            height: 58px;
+            width: 85%;
+            margin-bottom: 20px;
+            position: relative;
+        
+
+            .text-field6 {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+
+            .icon3 {
+                position: absolute;
+                right: 20px;
+                top: 11px;
+                font-size: 20px;
+                }
+       }     
+    }
+
+    .rowFive {
+        display: flex;
+        justify-content: space-evenly;
+
+        .input-wrapper7 {
+            height: 58px;
+            width: 12.6%;
+            margin-bottom: 20px;
+            position: relative;
+        
+
+            .text-field7 {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+
+            .icon2 {
+                position: absolute;
+                right: 20px;
+                top: 11px;
+                font-size: 20px;
+                }
+            
+         }       
+            
+    }
+
+    .rowSix {
+        display: flex;
+        justify-content: space-between;
+
+        .input-wrapper8 {
+            height: 192px;
+            width: 100%;
+            margin-bottom: 20px;
+            
+        }
+
+            .text-field8 {
+                width: 100%;
+                height: 192px;
+                padding-bottom: 140px;
+                outline: none;
+                box-sizing: border-box;
+                text-indent: 10px;
+            }
+    }
+
+    .rowSeven {
+
+        .button2 {
+            max-width: 813px;
+            height: 60px;
+            background-color: #79ADDC;
+            font-family: GillSansReg;
+            color: white;
+            font-size: 15px;
+            margin: 0 auto;
+            padding: 20px 0;
+            border-radius: 20px;
+            text-align: center;
+        }
+    }
+    .rowEight {
+        height: 120px
+    }
+}
+
+@media (max-width: 820px) {
+    .formsection {
+        h1 {
+            text-align: center;
+        }
+        .rowSeven {
+            .button2  {
+                width: 400px;
+            }
+        }
+    }
+}

@@ -1,0 +1,180 @@
+.specialcontent {
+    min-height: 810px;
+    max-width: 980px;
+    margin: 0 auto;
+
+    h2 {
+        font-family: ProximaNova;
+        color: #FF7D38;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 10px;
+        white-space: nowrap;
+    }
+
+    .specialheader {
+        font-family: ProximaNova;
+        font-size: 40px;
+        letter-spacing: 4.5px;
+        font-weight: normal;
+        display: inline;
+        position: relative;
+
+        .specialbanner {
+            border-bottom: 2px solid black;
+            width: 60%;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+        }
+    }
+
+        .spainsection {
+            max-width: 680px;
+            min-height: 290px;
+            margin-top: 54px;
+            margin-bottom: 65px;
+            display: flex;
+            
+
+            .spainimage {
+                min-width: 200px;
+                height: 290px;
+                background-image: url(../images/special-offer-01.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .spainheader h1{
+            height: 40px;
+            font-family: ProximaNova;
+            font-size: 40px;
+            letter-spacing: 4.5px;
+            font-weight: normal;
+            display: inline;
+            position: relative;
+            white-space: nowrap;
+            margin-left: 20px;
+
+            .specialbanner {
+                border-bottom: 2px solid black;
+                width: 55%;
+                position: absolute;
+                left: 0;
+                top: 50px;
+                }
+            }
+
+            .spaininfo {
+                width: 290px;
+                height: 130px;
+                font-family: GillSans;
+                font-size: 16px;
+                font-weight: lighter;
+                letter-spacing: 1.6px;
+                margin-left: 20px;
+                margin-top: 22px;
+            }
+
+            .learnbutton {
+                width: 133px;
+                height: 40px;
+                background-color: #79ADDC;
+                font-family: GillSansReg;
+                color: white;
+                padding: 10px 0;
+                border-radius: 20px;
+                text-align: center;
+                margin-left: 20px;
+                margin-top: 48px;
+            }
+
+        }
+
+        .thailandsection {
+            max-width: 680px;
+            min-height: 290px;
+            margin-top: 36px;
+            display: flex;
+            margin-bottom: 65px;
+
+            .thailandimage {
+                min-width: 200px;
+                height: 290px;
+                background-image: url(../images/special-offer-02.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+
+            .spainheader h1{
+                height: 40px;
+                font-family: ProximaNova;
+                font-size: 40px;
+                letter-spacing: 4.5px;
+                font-weight: normal;
+                display: inline;
+                position: relative;
+                white-space: nowrap;
+                margin-left: 20px;
+    
+                .specialbanner {
+                    border-bottom: 2px solid black;
+                    width: 55%;
+                    position: absolute;
+                    left: 0;
+                    top: 50px;
+                    }
+                }
+    
+                .spaininfo {
+                    width: 290px;
+                    height: 130px;
+                    font-family: GillSans;
+                    font-size: 16px;
+                    font-weight: lighter;
+                    letter-spacing: 1.6px;
+                    margin-left: 20px;
+                    margin-top: 22px;
+                }
+    
+                .learnbutton {
+                    width: 133px;
+                    height: 40px;
+                    background-color: #79ADDC;
+                    font-family: GillSansReg;
+                    color: white;
+                    padding: 10px 0;
+                    border-radius: 20px;
+                    text-align: center;
+                    margin-left: 20px;
+                    margin-top: 48px;
+                }
+        }
+}
+
+@media (max-width: 700px) {
+    .specialcontent {
+
+        .specialheader {
+            margin-left: 20px;
+        }
+
+        .spainsection {
+            flex-wrap: wrap;
+            .spainimage {
+                margin-bottom: 20px;
+                margin-left: 20px;
+            }
+        }
+        .thailandsection {
+            flex-wrap: wrap;
+            .thailandimage {
+                margin-bottom: 20px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
